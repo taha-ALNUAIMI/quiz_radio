@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+            <link href="style.css" rel="stylesheet" type="text/css">
+            <title>quiz</title>
+        </head>
+        <body>
+             <audio id="myAudio"></audio>
+            <div class="grid">
+                <form id="form1"><p style="font-size: 20px">groupe 1</p> 
+                    <input type="radio" name="gender" id="r0" value="A"><span  id="ch0"></span> <br>
+                    <input type="radio" name="gender" id="r1" value="B"><span  id="ch1"></span> <br>
+                    <input type="radio" name="gender" id="r2" value="C"><span  id="ch2"></span> <br>
+                    <input type="radio" name="gender" id="r3" value="D"><span  id="ch3"></span> <br>
+                </form> 
+                <form id="form2" style="visibility: hidden"><p>groupe 2</p> 
+                    <input type="radio" name="gender" id="rr0" value="A"><span id="chh0"></span> </br>
+                    <input type="radio" name="gender" id="rr1" value="B"><span id="chh1"></span> </br>
+                    <input type="radio" name="gender" id="rr2" value="C"><span id="chh2"></span> </br>
+                    <input type="radio" name="gender" id="rr3" value="D"><span id="chh3"></span> </br>
+                </form> 
+                <footer>
+                    <p id="progress"> question x of y.</p>
+                    <button id="btn_next" style="margin: 20px 200px;">NEXT</button>
+                </footer>
+            </div>
+           <script src="c_o.js"></script>
+        </body>
+    </html>
